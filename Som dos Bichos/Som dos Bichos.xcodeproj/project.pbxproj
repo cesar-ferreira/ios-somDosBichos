@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614AD1F423C9095F002909E7 /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 614AD1EE23C9095F002909E7 /* gato.mp3 */; };
+		614AD1F523C9095F002909E7 /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 614AD1EF23C9095F002909E7 /* vaca.mp3 */; };
+		614AD1F623C9095F002909E7 /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 614AD1F023C9095F002909E7 /* leao.mp3 */; };
+		614AD1F723C9095F002909E7 /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 614AD1F123C9095F002909E7 /* cao.mp3 */; };
+		614AD1F823C9095F002909E7 /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 614AD1F223C9095F002909E7 /* macaco.mp3 */; };
+		614AD1F923C9095F002909E7 /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 614AD1F323C9095F002909E7 /* ovelha.mp3 */; };
 		618FC39223C7C77300FF711B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618FC39123C7C77300FF711B /* AppDelegate.swift */; };
 		618FC39423C7C77300FF711B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618FC39323C7C77300FF711B /* SceneDelegate.swift */; };
 		618FC39623C7C77300FF711B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618FC39523C7C77300FF711B /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		614AD1EE23C9095F002909E7 /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gato.mp3; path = "../../../../../../../Downloads/arquivos-necessarios-som-bichos/sons/gato.mp3"; sourceTree = "<group>"; };
+		614AD1EF23C9095F002909E7 /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = vaca.mp3; path = "../../../../../../../Downloads/arquivos-necessarios-som-bichos/sons/vaca.mp3"; sourceTree = "<group>"; };
+		614AD1F023C9095F002909E7 /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = leao.mp3; path = "../../../../../../../Downloads/arquivos-necessarios-som-bichos/sons/leao.mp3"; sourceTree = "<group>"; };
+		614AD1F123C9095F002909E7 /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cao.mp3; path = "../../../../../../../Downloads/arquivos-necessarios-som-bichos/sons/cao.mp3"; sourceTree = "<group>"; };
+		614AD1F223C9095F002909E7 /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = macaco.mp3; path = "../../../../../../../Downloads/arquivos-necessarios-som-bichos/sons/macaco.mp3"; sourceTree = "<group>"; };
+		614AD1F323C9095F002909E7 /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ovelha.mp3; path = "../../../../../../../Downloads/arquivos-necessarios-som-bichos/sons/ovelha.mp3"; sourceTree = "<group>"; };
 		618FC38E23C7C77300FF711B /* Som dos Bichos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Som dos Bichos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		618FC39123C7C77300FF711B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		618FC39323C7C77300FF711B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		614AD1ED23C9092A002909E7 /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				614AD1F123C9095F002909E7 /* cao.mp3 */,
+				614AD1EE23C9095F002909E7 /* gato.mp3 */,
+				614AD1F023C9095F002909E7 /* leao.mp3 */,
+				614AD1F223C9095F002909E7 /* macaco.mp3 */,
+				614AD1F323C9095F002909E7 /* ovelha.mp3 */,
+				614AD1EF23C9095F002909E7 /* vaca.mp3 */,
+			);
+			path = sons;
+			sourceTree = "<group>";
+		};
 		618FC38523C7C77300FF711B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +81,7 @@
 		618FC39023C7C77300FF711B /* Som dos Bichos */ = {
 			isa = PBXGroup;
 			children = (
+				614AD1ED23C9092A002909E7 /* sons */,
 				618FC39123C7C77300FF711B /* AppDelegate.swift */,
 				618FC39323C7C77300FF711B /* SceneDelegate.swift */,
 				618FC39523C7C77300FF711B /* ViewController.swift */,
@@ -126,8 +152,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				618FC39E23C7C77500FF711B /* LaunchScreen.storyboard in Resources */,
+				614AD1F923C9095F002909E7 /* ovelha.mp3 in Resources */,
+				614AD1F523C9095F002909E7 /* vaca.mp3 in Resources */,
+				614AD1F723C9095F002909E7 /* cao.mp3 in Resources */,
+				614AD1F423C9095F002909E7 /* gato.mp3 in Resources */,
+				614AD1F823C9095F002909E7 /* macaco.mp3 in Resources */,
 				618FC39B23C7C77500FF711B /* Assets.xcassets in Resources */,
 				618FC39923C7C77300FF711B /* Main.storyboard in Resources */,
+				614AD1F623C9095F002909E7 /* leao.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
